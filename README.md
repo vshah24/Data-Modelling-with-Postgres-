@@ -1,15 +1,15 @@
 # Data-Modelling-with-Postgres-
 
-#### Overview
+### Overview
 A startup **Sparkify (imaginary music streaming company)** have been collecting data about songs and users activity across their platform. The analytics team wants to analyze and understand what songs users are interested listening to. The data is spread across multiple json files, which makes it hard to query and do the analysis.
 
 The goal of this project is to create a postgres data model and develop an ETL pipeline that transfers data from local json files to these tables in postgres database making it easier for the analytics team to analyze the data and understand the user behaviour. 
 
 
-#### Datasets
+### Datasets
 Currently, we are collecting data for songs and user activities that are stored in two different directories (`song and log`),in json format.
 
-* Song Dataset : Song dataset json format
+* **Song Dataset** : Song dataset json format
 ```
 {
   "num_songs": 1, 
@@ -25,7 +25,7 @@ Currently, we are collecting data for songs and user activities that are stored 
 }
 ```
 
-* Log DataSet : Log dataset json format
+* **Log Dataset** : Log dataset json format
 ```
 {
 "artist": null, 
@@ -49,4 +49,27 @@ Currently, we are collecting data for songs and user activities that are stored 
 }
 ```
 
+### Schema
 
+#### Fact Tables
+
+1. **Songplays** - records in log data associated with song plays i.e. records with page `Next Song`
+  
+    ```songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent```
+
+#### Dimension Tables
+2. **users** - users in the app
+
+    ```user_id, first_name, last_name, gender, level```
+    
+3. **songs** - songs in music database
+
+    ```song_id, title, artist_id, year, duration```
+    
+4. **artists** - artists in music database
+
+   ``` artist_id, name, location, latitude, longitude```
+ 
+5. **time** - timestamps of records in songplays broken down into specific units
+
+    ```start_time, hour, day, week, month, year, weekday```
