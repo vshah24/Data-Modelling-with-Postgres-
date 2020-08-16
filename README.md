@@ -26,7 +26,7 @@ Currently, we are collecting data for songs and user activities that are stored 
 ```
 
 * Log DataSet : Log dataset json format
-```diff
+```
 {
 "artist": null, 
 "auth": "Logged In", 
@@ -42,14 +42,11 @@ Currently, we are collecting data for songs and user activities that are stored 
 "registration": 1540919166796.0, 
 "sessionId": 38,
 "song": null, 
-"status": + 200, 
+"status": 200, 
 "ts": 1541105830796, 
 "userAgent": "\"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/36.0.1985.143 Safari\/537.36\"", 
 "userId": "39"
 }
 ```
 
-```diff
-+ this text is highlighted in green
-- this text is highlighted in red
-```
+
