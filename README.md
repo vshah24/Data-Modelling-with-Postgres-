@@ -7,6 +7,6 @@ The goal of this project is to create a postgres data model and develop an ETL p
 
 
 #### Datasets
-Currently, data is collected for songs and user activities in two different directories (`song and log`),using json format.
+Currently, we are collecting data for songs and user activities that are stored in two different directories (`song and log`),in json format.
 
 ##### 1.Song Dataset
