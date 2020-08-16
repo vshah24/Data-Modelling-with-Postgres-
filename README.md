@@ -9,7 +9,7 @@ The goal of this project is to create a postgres data model and develop an ETL p
 #### Datasets
 Currently, we are collecting data for songs and user activities that are stored in two different directories (`song and log`),in json format.
 
-* Song Dataset : Json Format of songs
+* Song Dataset : Song dataset json format
 ```
 {
   "num_songs": 1, 
@@ -20,19 +20,36 @@ Currently, we are collecting data for songs and user activities that are stored 
   "artist_name": "Line Renaud", 
   "song_id": "SOUPIRU12A6D4FA1E1", 
   "title": "Der Kleine Dompfaff", 
-  "duration": 152.92036, 
+  "duration":  152.92036, 
   "year": 0
 }
 ```
 
-* Log DataSet : Json Format of logs
-```
+* Log DataSet : Log dataset json format
+```diff
 {
-"artist": null, "auth": "Logged In", "firstName": "Walter", "gender": "M", 
-"itemInSession": 0, "lastName": "Frye", "length": null, "level": "free", 
-"location": "San Francisco-Oakland-Hayward, CA", "method": "GET","page": "Home", 
-"registration": 1540919166796.0, "sessionId": 38, "song": null, "status": 200, "ts": 1541105830796, 
+"artist": null, 
+"auth": "Logged In", 
+"firstName": "Walter", 
+"gender": "M", 
+"itemInSession": 0, 
+"lastName": "Frye", 
+"length": null, 
+"level": "free", 
+"location": "San Francisco-Oakland-Hayward, CA", 
+"method": "GET",
+"page": "Home", 
+"registration": 1540919166796.0, 
+"sessionId": 38,
+"song": null, 
+"status": + 200, 
+"ts": 1541105830796, 
 "userAgent": "\"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/36.0.1985.143 Safari\/537.36\"", 
 "userId": "39"
 }
+```
+
+```diff
++ this text is highlighted in green
+- this text is highlighted in red
 ```
