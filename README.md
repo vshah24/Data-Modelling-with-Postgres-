@@ -1,4 +1,4 @@
-This project is part of Udacity Nano Degree Program [Udacity's - Data Engineering Nanodegree ](https://www.udacity.com/course/data-engineer-nanodegree--nd027)
+This project is part  [Udacity's - Data Engineering Nanodegree ](https://www.udacity.com/course/data-engineer-nanodegree--nd027)
 # Data Modelling and Analysis with Postgres-
 
 ## Overview -
