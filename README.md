@@ -85,7 +85,7 @@ This project is part  [Udacity's - Data Engineering Nanodegree ](https://www.uda
 
     ```start_time, hour, day, week, month, year, weekday```
     
- 
+  ![Img](https://udacity-reviews-uploads.s3.us-west-2.amazonaws.com/_attachments/33760/1597636992/Song_ERD.png)
 
 ## Run Project Locally -
 1. To run the project , open the Terminal and enter the following
