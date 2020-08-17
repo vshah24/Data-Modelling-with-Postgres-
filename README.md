@@ -1,4 +1,5 @@
-# DataModelling and Analysis with Postgres-
+This project is part of Udacity Nano Degree Program [Udacity's - Data Engineering Nanodegree ](https://www.udacity.com/course/data-engineer-nanodegree--nd027)
+# Data Modelling and Analysis with Postgres-
 
 ## Overview -
   A startup **Sparkify (music streaming company)** have been collecting data about songs and users activity across their platform. The analytics team wants to analyze and understand what songs users are interested listening to. The data is spread across multiple json files, which makes it hard to query and do the analysis.
