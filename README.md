@@ -1,4 +1,4 @@
-# Data-Modelling-with-Postgres-
+# DataModelling and Analysis with Postgres-
 
 ## Overview -
   A startup **Sparkify (music streaming company)** have been collecting data about songs and users activity across their platform. The analytics team wants to analyze and understand what songs users are interested listening to. The data is spread across multiple json files, which makes it hard to query and do the analysis.
