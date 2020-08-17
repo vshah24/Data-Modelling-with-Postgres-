@@ -8,7 +8,7 @@
   
   
 ## Project Files - 
-  1. **data/** - contains song and log files on user activity in json format
+  1. **song_data/ and log_data/** - contains song and log files on user activity in json format.
   2. **sql_queries.py** - Contains sql queries that has a creation,insertion and dropping templates of fact and dimension tables.
   3. **create_tables.py** - creates **sparkify** database and tables.
   4. **etl.ipynb** - It's a prototype which inserts data from 1 json file. 
